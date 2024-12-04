@@ -5,14 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spadający Klocek</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
         canvas {
+            margin: 20px auto;
             border: 1px solid black;
             display: block;
-            margin: 0 auto;
+            /*margin: 0 auto;*/
+        }
+        header {
+            background: #024d83;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        h1 {
+            margin-bottom: 5px;
+        }
+        h3 {
+            margin-top: 0px;
         }
     </style>
 </head>
 <body>
+<header>
+    <h1>Zadanie: Spadający Klocek</h1>
+    <h3>Marcel Osoliński 3Td</h3>
+</header>
 <canvas id="gameCanvas" width="800" height="600"></canvas>
 <script src="index.js"></script>
 </body>
